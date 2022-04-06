@@ -7,5 +7,7 @@ This package contains a Validator class which can be used as singleton to check 
 
 # Testing
 Run unit tests with the command
-  python -m unittest -v tests/test_validsentence.py
+
+> python -m unittest -v tests/test_validsentence.py
+
 from the base directory of the application.
