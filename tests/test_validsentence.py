@@ -6,6 +6,9 @@ class FullSentenceTest(unittest.TestCase):
     def setUp(self):
         """Call before every test."""
         self.validator = Validator()
+
+    def test_empty_sentence(self):
+        assert self.validator.validate('') == False
     
     def test_valid_sentence_1(self):
         assert self.validator.validate('The quick brown fox said "hello Mr lazy dog".') == True
